@@ -1131,6 +1131,139 @@ em { font-style: italic; color: var(--blue-deep); }
   .footer-bottom .container { flex-direction: column; text-align: center; }
 }
 
+/* ---------- Legal Pages (Impressum / Datenschutz) ---------- */
+.legal-page {
+  padding-top: 7rem;
+  padding-bottom: 5rem;
+  min-height: 80vh;
+}
+
+.legal-header {
+  text-align: center;
+  max-width: 640px;
+  margin-inline: auto;
+  margin-bottom: 3.5rem;
+}
+
+.legal-header h1 {
+  font-size: clamp(2rem, 4vw, 3rem);
+  margin-bottom: 0.75rem;
+}
+
+.legal-header p {
+  color: var(--text-muted);
+  font-size: 0.97rem;
+}
+
+.legal-content {
+  max-width: 760px;
+  margin-inline: auto;
+}
+
+.legal-section {
+  margin-bottom: 2.5rem;
+  padding-bottom: 2.5rem;
+  border-bottom: 1px solid var(--border);
+}
+
+.legal-section:last-of-type {
+  border-bottom: none;
+}
+
+.legal-section h2 {
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: var(--text-dark);
+  margin-bottom: 0.85rem;
+}
+
+.legal-section p {
+  font-size: 0.97rem;
+  line-height: 1.8;
+  color: var(--text-muted);
+  margin-bottom: 0.75rem;
+}
+
+.legal-section p:last-child { margin-bottom: 0; }
+
+.legal-section a {
+  color: var(--blue-deep);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+.legal-section a:hover { color: var(--blue-mid); }
+
+.legal-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+  margin-block: 0.75rem;
+}
+
+.legal-list li {
+  font-size: 0.97rem;
+  color: var(--text-muted);
+  line-height: 1.7;
+  padding-left: 1.25rem;
+  position: relative;
+}
+
+.legal-list li::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0.65em;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: var(--blue-light);
+  flex-shrink: 0;
+}
+
+.legal-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 0.75rem;
+  font-size: 0.95rem;
+}
+
+.legal-table tr {
+  border-bottom: 1px solid var(--border);
+}
+
+.legal-table tr:last-child {
+  border-bottom: none;
+}
+
+.legal-table td {
+  padding: 0.7rem 0.5rem;
+  vertical-align: top;
+  line-height: 1.6;
+}
+
+.legal-table td:first-child {
+  width: 38%;
+  font-weight: 600;
+  color: var(--text-dark);
+  padding-right: 1rem;
+}
+
+.legal-table td:last-child {
+  color: var(--text-muted);
+}
+
+.legal-table a {
+  color: var(--blue-deep);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.legal-back {
+  margin-top: 3rem;
+  text-align: center;
+}
+
 /* ---------- Accessibility ---------- */
 :focus-visible {
   outline: 3px solid var(--blue-deep);
