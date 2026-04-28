@@ -228,8 +228,8 @@ em { font-style: italic; color: var(--blue-deep); }
 }
 .logo strong { color: var(--blue-deep); }
 .logo-icon { width: 36px; height: 36px; }
-.logo-img--nav    { height: 80px; width: auto; display: block; }
-.logo-img--footer { height: 65px; width: auto; display: block; }
+.logo-img--nav    { height: 120px; width: auto; display: block; }
+.logo-img--footer { height: 90px; width: auto; display: block; }
 
 .nav-links {
   display: flex;
