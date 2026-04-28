@@ -197,7 +197,7 @@ em { font-style: italic; color: var(--blue-deep); }
   left: 0;
   right: 0;
   z-index: 1000;
-  padding-block: 1rem;
+  padding-block: 0.6rem;
   background: rgba(255,255,255,0.8);
   backdrop-filter: blur(14px);
   -webkit-backdrop-filter: blur(14px);
@@ -228,8 +228,8 @@ em { font-style: italic; color: var(--blue-deep); }
 }
 .logo strong { color: var(--blue-deep); }
 .logo-icon { width: 36px; height: 36px; }
-.logo-img--nav    { height: 60px; width: auto; display: block; }
-.logo-img--footer { height: 50px; width: auto; display: block; }
+.logo-img--nav    { height: 80px; width: auto; display: block; }
+.logo-img--footer { height: 65px; width: auto; display: block; }
 
 .nav-links {
   display: flex;
