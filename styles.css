@@ -197,7 +197,7 @@ em { font-style: italic; color: var(--blue-deep); }
   left: 0;
   right: 0;
   z-index: 1000;
-  padding-block: 0.6rem;
+  padding-block: 0.2rem;
   background: rgba(255,255,255,0.8);
   backdrop-filter: blur(14px);
   -webkit-backdrop-filter: blur(14px);
@@ -206,7 +206,7 @@ em { font-style: italic; color: var(--blue-deep); }
 }
 
 .navbar.scrolled {
-  padding-block: 0.65rem;
+  padding-block: 0.2rem;
   box-shadow: var(--shadow-md);
 }
 
@@ -275,7 +275,7 @@ em { font-style: italic; color: var(--blue-deep); }
 .hero {
   position: relative;
   background: linear-gradient(135deg, var(--blue-pale) 0%, #c8e8ff 50%, #dff0ff 100%);
-  padding-top: 7rem;
+  padding-top: 9.5rem;
   padding-bottom: 5rem;
   overflow: hidden;
 }
@@ -1097,7 +1097,7 @@ em { font-style: italic; color: var(--blue-deep); }
 @media (max-width: 640px) {
   .section { padding-block: 4rem; }
 
-  .navbar { padding-block: 0.9rem; }
+  .navbar { padding-block: 0.2rem; }
 
   .nav-links {
     display: none;
@@ -1124,7 +1124,7 @@ em { font-style: italic; color: var(--blue-deep); }
 
   .contact-form { padding: 1.5rem; }
 
-  .hero { padding-top: 5.5rem; }
+  .hero { padding-top: 9.5rem; }
   .hero-ctas { flex-direction: column; }
   .hero-ctas .btn { width: 100%; }
 
@@ -1135,7 +1135,7 @@ em { font-style: italic; color: var(--blue-deep); }
 
 /* ---------- Legal Pages (Impressum / Datenschutz) ---------- */
 .legal-page {
-  padding-top: 7rem;
+  padding-top: 9.5rem;
   padding-bottom: 5rem;
   min-height: 80vh;
 }
